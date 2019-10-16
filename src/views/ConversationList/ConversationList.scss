@@ -1,0 +1,15 @@
+.conversation-list-item {
+    width: 100%;
+    padding: 20px 30px;
+    border-bottom: 1px solid #999; 
+    box-sizing: border-box;
+    cursor: pointer;
+    background: transparent;
+    color: #111;
+    transition: .3s;
+
+    &:hover {
+        background: #009c51;
+        color: white;
+    }
+}
